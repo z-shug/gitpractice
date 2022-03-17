@@ -1,31 +1,48 @@
-h1 { 
-    text-align: center;
+.container {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    object-fit: contain;
+   
 }
 
-li {
-    font-weight: bold;
-
+header {
+    background: #7FC6A4;
 }
 
-#list-items {
-    font-size: large;
+header ::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
-.navbar {
-    float: right;
-    overflow: hidden;
-    background-color: lightslategrey;
-    position: fixed;
-    top: 0%;
-    width: 100%;
-}
-
-.navbar a {
+#logo {
     float: left;
-    display: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 10px;
 }
 
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 80px;
+    font-size: 30px;
+    padding-top: 60px;
+}
+
+nav a {
+    color: #000000;
+}
+
+#about {
+    font-size: 25px;
+    padding-top: 150px;
+}
