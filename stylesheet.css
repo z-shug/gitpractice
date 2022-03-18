@@ -54,3 +54,8 @@ nav a:hover {
     padding-top: 150px;
 }
 
+#table {
+    table-layout: auto;
+    border: yellow;
+    display: inline-table;
+}
