@@ -34,15 +34,23 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 80px;
-    font-size: 30px;
+    font-size: 23px;
+    font-weight: 300;
     padding-top: 60px;
 }
 
 nav a {
     color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: white;
 }
 
 #about {
     font-size: 25px;
     padding-top: 150px;
 }
+
